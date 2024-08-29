@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test';
 
-const endPoints = ['', 'works', 'services', 'company', 'blog'];
+const endPoints = ['', 'reserve.php', 'purchase.php', 'confirmation.php'];
 
-const urlBase = 'https://develops.today/';
-const urlBase2 = 'https://develops.today/'; 
+const urlBase = 'https://blazedemo.com/';
+const urlBase2 = 'https://blazedemo.com/'; 
 
-const country = 'DevelopsToday';
+const country = 'BlazeDemo';
 
 
 for (const endPoint of endPoints) {
